@@ -1,5 +1,9 @@
-// import "../../../../style.css"
 import { printNavBar } from "../../elements/navbar/navbar"
 import "./about.css"
-console.log(`about.js executed`)
-printNavBar()
+
+console.log("choripanes")
+
+const locationHome = "../../../../index.html"
+const locationAbout = "./about.html"
+const locationContact = "../contact/contact.html"
+printNavBar(locationHome, locationAbout, locationContact)

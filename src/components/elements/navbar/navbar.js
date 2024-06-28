@@ -1,4 +1,8 @@
-const navbar = `
+export const printNavBar = (locationHome, locationAbout, locationContact) => {
+  const body = document.querySelector("body")
+
+
+  const navbar = `
                   <nav class="main_nav">
                     <ul class="nav_ul">
                         <li>AVAILABLE FOR NEW PROJECTS</li>
@@ -25,22 +29,20 @@ const navbar = `
                     <ul class="nav_ul">
                         <li><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 4.66602H16M16 4.66602L11.6364 0.666016M16 4.66602L11.6364 8.66602" stroke="#C3BCAC" stroke-width="1.06667"/>
-                            </svg><a href="../../../../index.html">HOME</li></a>
+                            </svg><a href=${locationHome}>HOME</li></a>
                         <li><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 4.66602H16M16 4.66602L11.6364 0.666016M16 4.66602L11.6364 8.66602" stroke="#C3BCAC" stroke-width="1.06667"/>
-                            </svg><a href="index.html#work">OUR WORK</li></a>
+                            </svg><a href="${locationHome}#work">OUR WORK</li></a>
                         <li><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 4.66602H16M16 4.66602L11.6364 0.666016M16 4.66602L11.6364 8.66602" stroke="#C3BCAC" stroke-width="1.06667"/>
-                            </svg><a href="/about.html">ABOUT US</li></a>
+                            </svg><a href=${locationAbout}>ABOUT US</li></a>
                         <li class="nav_li_cta"><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 5.33398H16M16 5.33398L11.6364 1.33398M16 5.33398L11.6364 9.33398" stroke="#B30000" stroke-width="1.06667"/>
-                            </svg><a href="/contact.html">GET IN TOUCH</li></a>
+                            </svg><a href=${locationContact}>GET IN TOUCH</li></a>
                     </ul>
                 </nav>
 `
 
-export const printNavBar = () => {
-  const body = document.querySelector("body")
 
   const navbarElement = document.createElement("nav")
   navbarElement.classList.add("main-nav")
@@ -48,4 +50,5 @@ export const printNavBar = () => {
   navbarElement.innerHTML = navbar
 
   body.prepend(navbarElement)
+  console.log(`navbar printed`)
 }
