@@ -29,7 +29,7 @@ const footer = `
             <ul class="nav_ul">
                 <li><a href="index.html"></a>HOME</li>
                 <li>OUR WORK</li>
-                <li><a href="/about.html">ABOUT US</li></a>
+                <li><a href="/about.html">ABOUT US</li]></a>
                 <li class="nav_li_cta"><a href="/contact.html">GET IN TOUCH</li></a>
             </ul>
         </nav>
