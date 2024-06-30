@@ -8,7 +8,7 @@ export default defineConfig({
       input: {
         index: resolve('A37', 'index.html'),
         about: resolve('A37', './src/components/pages/about/about.html'),
-        contact: resolve()
+        contact: resolve('A37', './src/components/pages/contact/contact.html')
       },
     },
   },
