@@ -1,3 +1,5 @@
+import "./footer.css"
+
 const footer = `
 
         <div class="footer_main_hero_logo">

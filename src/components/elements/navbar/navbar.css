@@ -1,0 +1,19 @@
+
+.main_nav{
+    margin: 0 2rem;
+    margin-bottom: 0;
+    border-right: 2px solid var(--a37-color-red);
+    border-left: 2px solid var(--a37-color-red);
+    padding: 0;
+}
+
+.main_nav_container{
+    width: 100%;
+    margin: 2rem 0;
+    border-top: 2px solid var(--a37-color-red);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
