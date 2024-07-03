@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background: var(--a37-var-color-red);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    padding: 2.88rem 1.88rem;
+}
+
+.nav_ul{
+    list-style: none;
+    color: var(--a37-var-color-beige-0);
+    font-family: "Space Mono";
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav_li svg{
+    margin-right: 15px;
+}

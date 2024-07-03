@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    width: 100%;
+
+    background: var(--BA0000, #B20000);
+}
+
+.footer_logo_h1{
+    color: var(--FCFBF9, #FCFBF9);
+    font-family: "Space Mono";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.footer_logo_h3{
+    color: var(--FCFBF9, #FCFBF9);
+    font-family: "Space Mono";
+    font-size: 0.63419rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.footer_main_hero_logo{
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_flex{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0.75rem 2.625rem;
+}

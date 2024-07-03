@@ -8,32 +8,34 @@ const footer = `
         </div>
 
         <nav class="footer_nav">
-            <ul class="nav_ul">
-                <li>AVAILABLE FOR NEW PROJECTS</li>
-                <li>ATELIER37@GMAIL.COM</li>
-                <li>+44 088847463929</li>
-            </ul>
+            <div class="footer_flex">
+                <ul class="nav_ul">
+                    <li>AVAILABLE FOR NEW PROJECTS</li>
+                    <li>ATELIER37@GMAIL.COM</li>
+                    <li>+44 088847463929</li>
+                </ul>
 
-            <ul class="nav_ul">
-                <li>MOOD-BOARD, MIND-MAP, CONCEPT</li>
-                <li>3D RENDERING</li>
-                <li>DETAILING FLOORPLANS AND LAYOUT</li>
-                <li class="nav_li_cta">MORE SERVICES</li>
-            </ul>
+                <ul class="nav_ul">
+                    <li>MOOD-BOARD, MIND-MAP, CONCEPT</li>
+                    <li>3D RENDERING</li>
+                    <li>DETAILING FLOORPLANS AND LAYOUT</li>
+                    <li class="nav_li_cta">MORE SERVICES</li>
+                </ul>
 
-            <ul class="nav_ul">
-                <li>SOCIAL</li>
-                <li>
-                    <a class="li_social" href="#">IG</a> <a class="li_social" href="#">X</a>  <a class="li_social" href="#">LI</a>
-                </li>
-            </ul>
+                <ul class="nav_ul">
+                    <li>SOCIAL</li>
+                    <li>
+                        <a class="li_social" href="#">IG</a> <a class="li_social" href="#">X</a>  <a class="li_social" href="#">LI</a>
+                    </li>
+                </ul>
 
-            <ul class="nav_ul">
-                <li><a href="index.html"></a>HOME</li>
-                <li>OUR WORK</li>
-                <li><a href="/about.html">ABOUT US</li]></a>
-                <li class="nav_li_cta"><a href="/contact.html">GET IN TOUCH</li></a>
-            </ul>
+                <ul class="nav_ul">
+                    <li><a href="index.html"></a>HOME</li>
+                    <li>OUR WORK</li>
+                    <li><a href="/about.html">ABOUT US</li]></a>
+                    <li class="nav_li_cta"><a href="/contact.html">GET IN TOUCH</li></a>
+                </ul>
+            </div>
         </nav>
 
 `
