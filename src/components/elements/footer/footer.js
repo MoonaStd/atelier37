@@ -32,6 +32,7 @@ const footer = `
                 </ul>
 
                 <ul class="nav_ul">
+                    <li>INDEX</li>
                     <li>OUR WORK</li>
                     <li><a href="/about.html">ABOUT US</li]></a>
                     <li class="nav_li_cta"><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">

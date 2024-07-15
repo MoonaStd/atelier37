@@ -24,6 +24,10 @@
     padding: 2.88rem 0;
 }
 
+a{
+    color: var(--a37-var-color-beige-300);
+}
+
 .nav_ul{
     list-style: none;
     color: var(--a37-var-color-beige-300);

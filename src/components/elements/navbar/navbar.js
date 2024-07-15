@@ -40,7 +40,7 @@ export const printNavBar = (locationHome, locationAbout, locationContact) => {
 
             <li class="nav_li li_red"><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 5.33398H16M16 5.33398L11.6364 1.33398M16 5.33398L11.6364 9.33398" stroke="#B30000" stroke-width="1.06667"/>
-            </svg>get in touch</li>
+            </svg> <a href="/src/components/pages/contact/contact.html">get in touch</a></li>
 
         </ul>
     </nav>
