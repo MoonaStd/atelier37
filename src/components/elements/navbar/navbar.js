@@ -1,4 +1,5 @@
 import "./navbar.css"
+import "../../../../style.css"
 export const printNavBar = (locationHome, locationAbout, locationContact) => {
   const body = document.querySelector("body")
 
@@ -12,10 +13,11 @@ export const printNavBar = (locationHome, locationAbout, locationContact) => {
         </ul>
         <ul class="nav_ul">
             <li class="nav_li">Mood-board, mind-map, concept</li>
+            <li class="nav_li">3D RENDERING</li>
             <li class="nav_li">Detailing floorplans and layout</li>
-            <li class="nav_li"><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 4.66602H16M16 4.66602L11.6364 0.666016M16 4.66602L11.6364 8.66602" stroke="#FCFBF9" stroke-width="1.06667"/>
-                </svg>MORE SERVICES</li>
+            <li class="nav_li li_red"><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 5.33398H16M16 5.33398L11.6364 1.33398M16 5.33398L11.6364 9.33398" stroke="#B30000" stroke-width="1.06667"/>
+            </svg>MORE SERVICES</li>
         </ul>
         <ul class="nav_ul">
             <li class="nav_li">instagram</li>
@@ -23,15 +25,23 @@ export const printNavBar = (locationHome, locationAbout, locationContact) => {
             <li class="nav_li">X</li>
         </ul>
         <ul class="nav_ul">
-            <li class="nav_li"><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 4.66602H16M16 4.66602L11.6364 0.666016M16 4.66602L11.6364 8.66602" stroke="#FCFBF9" stroke-width="1.06667"/>
-                </svg>OUR WORK</li>
-            <li class="nav_li"><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 4.66602H16M16 4.66602L11.6364 0.666016M16 4.66602L11.6364 8.66602" stroke="#FCFBF9" stroke-width="1.06667"/>
-                </svg>about us</li>
-            <li class="nav_li"><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 4.66602H16M16 4.66602L11.6364 0.666016M16 4.66602L11.6364 8.66602" stroke="#FCFBF9" stroke-width="1.06667"/>
-                </svg>get in touch</li>
+        
+            <li class="nav_li "><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 5.33398H16M16 5.33398L11.6364 1.33398M16 5.33398L11.6364 9.33398" stroke="#B30000" stroke-width="1.06667"/>
+            </svg>INDEX</li>
+
+            <li class="nav_li "><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 5.33398H16M16 5.33398L11.6364 1.33398M16 5.33398L11.6364 9.33398" stroke="#B30000" stroke-width="1.06667"/>
+            </svg>OUR WORK</li>
+
+            <li class="nav_li "><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 5.33398H16M16 5.33398L11.6364 1.33398M16 5.33398L11.6364 9.33398" stroke="#B30000" stroke-width="1.06667"/>
+            </svg><a href="/src/components/pages/about/about.html">about us</a></li>
+
+            <li class="nav_li li_red"><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 5.33398H16M16 5.33398L11.6364 1.33398M16 5.33398L11.6364 9.33398" stroke="#B30000" stroke-width="1.06667"/>
+            </svg>get in touch</li>
+
         </ul>
     </nav>
 `

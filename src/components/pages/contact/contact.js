@@ -1,5 +1,6 @@
 import { printNavBar } from "../../elements/navbar/navbar"
 import "./contact.css"
+import "../../../../style.css"
 
 console.log("choripanes")
 

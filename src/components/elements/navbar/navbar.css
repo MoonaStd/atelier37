@@ -4,19 +4,29 @@
     box-sizing: border-box;
 }
 
+.main-nav{
+    width: 100%;
+    background-color: var(--a37-var-color-beige-200);
+    border-bottom: 2px solid var(--a37-var-color-red);
+}
+
 .navbar{
-    background: var(--a37-var-color-red);
+    background: var(--a37-var-color-beige-200);
+
+
+    width: 96%;
+    margin: auto;
 
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     
-    padding: 2.88rem 1.88rem;
+    padding: 2.88rem 0;
 }
 
 .nav_ul{
     list-style: none;
-    color: var(--a37-var-color-beige-0);
+    color: var(--a37-var-color-beige-300);
     font-family: "Space Mono";
     text-transform: uppercase;
     font-size: 0.8125rem;
@@ -27,4 +37,8 @@
 
 .nav_li svg{
     margin-right: 15px;
+}
+
+.li_red{
+    color: var(--a37-var-color-red);
 }
