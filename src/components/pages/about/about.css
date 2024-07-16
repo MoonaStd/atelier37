@@ -6,7 +6,7 @@
 
 .about_main{
     width: 96%;
-    height: 100vh;
+    /* height: 100vh; */
     margin: auto;
 
     display: flex;
@@ -41,10 +41,6 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-}
-
-.info_p{
-
 }
 
 .about_img{
