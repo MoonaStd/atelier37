@@ -53,3 +53,16 @@
     color: var(--a37-var-color-beige-0);
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px){
+    .footer_flex{
+        padding: 2rem 1rem;
+    }
+}

@@ -1,6 +1,9 @@
 import "./navbar.css"
 import "../../../../style.css"
-export const printNavBar = (locationHome, locationAbout, locationContact) => {
+export const printNavBar = () => {
+
+
+
   const body = document.querySelector("body")
 
 
@@ -11,7 +14,7 @@ export const printNavBar = (locationHome, locationAbout, locationContact) => {
             <li class="nav_li">HELLO@ATELIER37.COM</li>
             <li class="nav_li">+44 48947590842</li>
         </ul>
-        <ul class="nav_ul">
+        <ul class="nav_ul nav_hide">
             <li class="nav_li">Mood-board, mind-map, concept</li>
             <li class="nav_li">3D RENDERING</li>
             <li class="nav_li">Detailing floorplans and layout</li>
@@ -19,17 +22,17 @@ export const printNavBar = (locationHome, locationAbout, locationContact) => {
             <path d="M0 5.33398H16M16 5.33398L11.6364 1.33398M16 5.33398L11.6364 9.33398" stroke="#B30000" stroke-width="1.06667"/>
             </svg>MORE SERVICES</li>
         </ul>
-        <ul class="nav_ul">
+        <ul class="nav_ul nav_hide">
             <li class="nav_li">instagram</li>
             <li class="nav_li">linkedin</li>
             <li class="nav_li">X</li>
         </ul>
         <ul class="nav_ul">
 
-            <li class="nav_li li_red"><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <li class="nav_li"><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 5.33398H16M16 5.33398L11.6364 1.33398M16 5.33398L11.6364 9.33398" stroke="#B30000" stroke-width="1.06667"/></svg><a href="/index.htmls">index</a></li>
 
-            <li class="nav_li li_red"><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <li class="nav_li"><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 5.33398H16M16 5.33398L11.6364 1.33398M16 5.33398L11.6364 9.33398" stroke="#B30000" stroke-width="1.06667"/></svg><a href="/src/components/pages/work/work.html">our work</a></li>
 
             <li class="nav_li "><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">

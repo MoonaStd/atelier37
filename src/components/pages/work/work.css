@@ -1,4 +1,100 @@
-body{
-    height: 100vh;
-    background-color: aqua;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.work-collection{
+    /* padding: 5rem 2rem;     */
+    margin: 0rem 2rem;
+    padding: 0 2rem;
+
+    border-right: 2px solid var(--a37-var-color-red);
+    border-left: 2px solid var(--a37-var-color-red);
+}
+
+.project{
+    padding-top: 5rem;
+}
+
+.project-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    padding: 2rem 0;
+}
+
+.project-text{
+    width: 40%;
+}
+
+.project-no{
+    font-size: .62rem;
+    color: var(--a37-var-color-red);
+}
+
+.project-hl{
+    background-color: var(--a37-var-color-green);
+}
+
+.project-carousel{
+    display: flex;
+    gap: 1rem;
+    overflow-x: scroll;
+}
+
+.project-cr-img{
+    /* width: 100%; */
+    height: 30rem;
+}
+
+.pj-04{
+    padding-bottom: 5rem;
+}
+
+.btn_cta_pj{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+    background-color: transparent;
+    border: none;
+
+    color: var(--a37-var-color-red);
+    text-decoration: underline;
+}
+
+.btn_cta_pj a{
+    color: var(--a37-var-color-red);
+}
+
+.btn_cta_pj svg{
+    margin-right: 1rem;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .project-info{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+
+    .project{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .project-text{
+        width: 100%;
+    }
 }

@@ -15,7 +15,7 @@ const footer = `
                     <li>+44 088847463929</li>
                 </ul>
 
-                <ul class="nav_ul">
+                <ul class="nav_ul nav_hide">
                     <li>MOOD-BOARD, MIND-MAP, CONCEPT</li>
                     <li>3D RENDERING</li>
                     <li>DETAILING FLOORPLANS AND LAYOUT</li>
@@ -24,7 +24,7 @@ const footer = `
                     </svg> MORE SERVICES</li>
                 </ul>
 
-                <ul class="nav_ul">
+                <ul class="nav_ul nav_hide">
                     <li>SOCIAL</li>
                     <li>
                         <a class="li_social" href="#">IG</a> <a class="li_social" href="#">X</a>  <a class="li_social" href="#">LI</a>

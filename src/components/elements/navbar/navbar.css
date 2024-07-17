@@ -26,6 +26,7 @@
 
 a{
     color: var(--a37-var-color-beige-300);
+    text-decoration: underline;
 }
 
 .nav_ul{
@@ -43,6 +44,22 @@ a{
     margin-right: 15px;
 }
 
-.li_red{
+.li_red a{
     color: var(--a37-var-color-red);
+}
+
+
+
+
+
+/* Media Query */
+
+@media screen and (max-width: 480px){
+    .nav_hide{
+        display: none;
+    }
+
+    .navbar, .footer_flex{
+        padding: 2rem 1rem;
+    }
 }

@@ -40,7 +40,7 @@ h2, h3, h4, h5, h6, p, button{
 /* hero */
 .section_logo{
     width: 96%;
-    height: 80vh;
+    height: 70vh;
 
     margin: auto;
 
@@ -89,8 +89,9 @@ h2, h3, h4, h5, h6, p, button{
 /* portfolio */
 .portfolio{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
+    gap: 1rem;
 
     width: 96%;
     margin: auto;
@@ -98,7 +99,7 @@ h2, h3, h4, h5, h6, p, button{
     border-top: 0;
     border-bottom: 0;
 
-    padding: 0 0 8rem 2rem;
+    padding: 0 2rem 8rem 2rem;
 }
 
 .port_wrap{
@@ -108,10 +109,9 @@ h2, h3, h4, h5, h6, p, button{
 }
 
 .project_img{
-    min-width: 300px;
     object-fit: cover;
 
-    width: 90%;
+    width: 100%;
 }
 
 .project_h3{
@@ -228,7 +228,7 @@ h2, h3, h4, h5, h6, p, button{
 }
 
 .btn_cta{
-    width: 100%;
+    /* width: 100%; */
 
     display: flex;
     justify-content: center;
@@ -237,9 +237,8 @@ h2, h3, h4, h5, h6, p, button{
     background-color: transparent;
     border: none;
 
-    color: var(--a37-var-color-green);
+    color: var(--a37-var-color-red);
     text-decoration: underline;
-
 }
 
 .btn_cta svg{
@@ -321,3 +320,73 @@ h2, h3, h4, h5, h6, p, button{
     font-weight: 400;
     line-height: normal;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+    /* About */
+
+    /* End About */
+
+    /* Services */
+@media screen and (max-width: 480px) {
+    .services-ctas{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .services-texts{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .main-text{
+        padding-bottom: 5rem;
+        width: 100%;
+    }
+    .serv_cta img{
+        width: 10%;
+    }
+    .btn_cta.vertical{
+        padding-right: 0;
+    }
+    .services-texts{
+        padding-bottom: 5rem;
+    }
+}
+    /* End Services */
+    @media screen and (max-width:480px){
+        .about{
+            flex-direction: column;
+            padding: 2rem;
+        }
+        .esaku{
+            width: 100%;
+        }
+        .about_text{
+            width: 100%;
+        }
+    }
+
+    /* Portfolio */
+    .portfolio{
+        flex-direction: column;
+        gap: 3rem;
+        padding-bottom: 5rem;
+    }
+    /* End Portfolio */
