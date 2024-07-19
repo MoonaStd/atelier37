@@ -55,6 +55,7 @@
 
 @media screen and (max-width: 480px){
     .about_info{
-        width: 85%;
+        width: 90%;
+        padding: 1rem;
     }
 }

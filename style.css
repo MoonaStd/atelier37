@@ -8,6 +8,10 @@ html{
     background-color: var(--a37-var-color-beige-0);
 }
 
+body{
+    min-width: 390px;
+}
+
 h2, h3, h4, h5, h6, p, button{
     color: var(--a37-var-color-beige-300);
     font-family: "Space Mono";
@@ -383,10 +387,15 @@ h2, h3, h4, h5, h6, p, button{
         }
     }
 
+
+
+    @media screen and (max-width:500px){
     /* Portfolio */
-    .portfolio{
-        flex-direction: column;
-        gap: 3rem;
-        padding-bottom: 5rem;
+        .portfolio{
+            flex-direction: column;
+            gap: 3rem;
+            padding-bottom: 5rem;
+        }
+        /* End Portfolio */
     }
-    /* End Portfolio */
+    
