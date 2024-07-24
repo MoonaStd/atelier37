@@ -1,4 +1,5 @@
 import "./footer.css"
+import './../../../../style.css'
 
 const footer = `
 

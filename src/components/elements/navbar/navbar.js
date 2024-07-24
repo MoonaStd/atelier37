@@ -2,6 +2,8 @@ import "./navbar.css"
 import "../../../../style.css"
 export const printNavBar = () => {
 
+    
+
 
 
   const body = document.querySelector("body")
