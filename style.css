@@ -2,7 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* cursor:none; */
+    cursor:none;
+}
+
+/* This is for the text animations */
+.hidden {
+    opacity: 0;
+    transition: 0.2s;
 }
 
 /* This is to change the cursor */
@@ -15,12 +21,6 @@
     background-color: var(--a37-var-color-red);
     z-index: 10000;
 }
-
-html {
-    cursor: none;
-}
-
-
 /* Cursor changed  */
 html{
     background-color: var(--a37-var-color-beige-0);
@@ -367,7 +367,7 @@ h2, h3, h4, h5, h6, p, button{
     /* End About */
 
     /* Services */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
     .services-ctas{
         flex-direction: column;
         width: 100%;
@@ -392,7 +392,7 @@ h2, h3, h4, h5, h6, p, button{
     }
 }
     /* End Services */
-    @media screen and (max-width:480px){
+    @media screen and (max-width:780px){
         .about{
             flex-direction: column;
             padding: 2rem;
