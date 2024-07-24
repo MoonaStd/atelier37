@@ -10,7 +10,7 @@ body.append(cursor)
 body.append(cursor)
 
 
-export const moveCursor = (e)=> {
+const moveCursor = (e)=> {
 
     const mouseY = e.clientY;
     const mouseX = e.clientX;
@@ -21,8 +21,10 @@ export const moveCursor = (e)=> {
     cursor.style.position = "fixed";
     cursor.style.left = mouseX + offsetX + "px"
     cursor.style.top = mouseY + offsety + "px"
+}
 
-    window.style.cursor="none"
 
- 
+
+export const changeCursor = () => {
+  window.addEventListener('mousemove', moveCursor)
 }
