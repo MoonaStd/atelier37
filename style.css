@@ -351,19 +351,13 @@ h2, h3, h4, h5, h6, p, button{
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* Media Queries */
     /* About */
-
+ @media screen and (max-width: 780px) {
+    .esaku{
+        height: 25vh;
+     }
+}
     /* End About */
 
     /* Services */
@@ -391,6 +385,7 @@ h2, h3, h4, h5, h6, p, button{
         padding-bottom: 5rem;
     }
 }
+
     /* End Services */
     @media screen and (max-width:780px){
         .about{
@@ -404,8 +399,6 @@ h2, h3, h4, h5, h6, p, button{
             width: 100%;
         }
     }
-
-
 
     @media screen and (max-width:500px){
     /* Portfolio */
