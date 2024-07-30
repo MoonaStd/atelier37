@@ -8,7 +8,7 @@ export const typewriter = (p) => {
     const typewriterIn = () => {      
       if(i<pJoint.length) {
         setTimeout(() => {
-          p.innerHTML += pJoint.charAt(i)
+          p.innerHTML += `${pJoint.charAt(i)}`
           i++
           setTimeout(typewriterIn, speed)
         }, speed);

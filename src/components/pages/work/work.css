@@ -12,6 +12,7 @@
 
     border-right: 2px solid var(--a37-var-color-red);
     border-left: 2px solid var(--a37-var-color-red);
+    overflow-x:hidden ;
 }
 
 .project{
@@ -39,11 +40,36 @@
     background-color: var(--a37-var-color-green);
 }
 
+
+
+/* ! CAROUSELS */
+
+
+.carousel-container {
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+
 .project-carousel{
     display: flex;
     gap: 1rem;
-    overflow-x: scroll;
+    position: relative;
+    /* overflow-x: hidden; */
+    /* animation: moveLeft 5s linear infinite; */
 }
+
+/* @keyframes moveLeft {
+    from{
+        translate: 0px;
+    }
+    to{
+        translate: -100%;
+    }
+} */
+
+/* ! END CAROUSELS */
 
 .project-cr-img{
     /* width: 100%; */
@@ -75,11 +101,6 @@
 .btn_cta_pj svg{
     margin-right: 1rem;
 }
-
-
-
-
-
 
 
 @media screen and (max-width: 480px) {
