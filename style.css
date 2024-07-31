@@ -204,12 +204,45 @@ h2, h3, h4, h5, h6, p, button{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    align-items: center;
     background-color: var(--a37-var-color-beige-100);
+}
+
+.esaku-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: fill;
+}
+
+.esaku-title {
+    position: relative;
+    top: 0.8rem;
+    font-weight: 400;
+    color: var(--a37-var-color-green);
+    text-align: right;
+    font-size: 40px;
+    letter-spacing: 90px;
+    width: 60%;
+}
+
+.esaku-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.esaku-image-content {
+    width: 100%;
 }
 
 .esaku img{
     width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .about_text{

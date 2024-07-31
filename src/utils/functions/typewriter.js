@@ -1,5 +1,5 @@
+export const speed = 4
 export const typewriter = (p) => {
-  const speed = 6
   let pArr = p.innerText.split("")
   p.innerHTML = ""
   let i = 0

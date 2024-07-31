@@ -1,13 +1,14 @@
 import { addHlSpans } from "./add-hl-spans"
 import { addNumberSpans } from "./add-number-spans"
-import { typewriter } from "./typewriter"
+import { speed, typewriter } from "./typewriter"
+
 
 export const scrollChecker = (element) => {
 if(!(element.classList.contains("typed"))){
 
   const {top, height, width} = element.getBoundingClientRect()
  
-  const timeToCheck = element.innerText.length * 18
+  const timeToCheck = element.innerText.length * (speed*2.5)
   
   element.style.width=width + "px"
   element.style.height=height + "px"
