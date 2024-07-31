@@ -221,10 +221,11 @@ h2, h3, h4, h5, h6, p, button{
     top: 0.8rem;
     font-weight: 400;
     color: var(--a37-var-color-green);
-    text-align: right;
+    text-align: center;
     font-size: 40px;
-    letter-spacing: 90px;
+    /* letter-spacing: 90px; */
     width: 60%;
+
 }
 
 .esaku-image {

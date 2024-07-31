@@ -14,7 +14,6 @@ export const addTypewriterEffect = () => {
 
     window.addEventListener("resize", () => {
       parr.removeAttribute('style')
-      console.log(window.innerWidth)
       if(window.innerWidth > 1200 && window.innerWidth<1215){
         location.reload(true)
         parr.classList.remove("typed")
