@@ -132,7 +132,7 @@ h2, h3, h4, h5, h6, p, button{
 
 .project_img{
     object-fit: cover;
-
+    min-width: 20svw;
     width: 100%;
 }
 
