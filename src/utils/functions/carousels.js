@@ -7,7 +7,7 @@
       carousel.style.left = `-${carousel.scrollWidth/2 +8}px`
       
       setTimeout(() => {
-        console.log("setTimeOut executed")
+        // console.log("setTimeOut executed")
         backToOrigin(carousel, duration)
       }, duration * 1000 + 5);
     }
@@ -15,7 +15,7 @@
     const backToOrigin = (carousel, duration) => {
       carousel.style.transition = 0  + "s" +  " linear"
       carousel.style.left = `0px`
-      console.log("returned to original position")
+      // console.log("returned to original position")
 
       setTimeout(() => {
         moveCarousel(carousel, duration);

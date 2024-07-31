@@ -9,7 +9,7 @@
     background-color: var(--a37-var-color-beige-200);
     border-bottom: 2px solid var(--a37-var-color-red);
 
-    position:fixed;
+    /* position:fixed; */
 }
 
 .navbar{

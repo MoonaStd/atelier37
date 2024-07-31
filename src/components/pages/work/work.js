@@ -16,7 +16,7 @@ const carousels = document.querySelectorAll(".project-carousel")
 // const carousel = document.querySelector(".project-carousel")
 
 
-const interval = 60
+const interval = 30
 carousels.forEach((carousel)=>{
   carousel.innerHTML += carousel.innerHTML
      moveCarousel(carousel, interval)
