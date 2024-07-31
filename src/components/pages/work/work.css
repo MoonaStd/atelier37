@@ -34,6 +34,7 @@
 .project-no{
     font-size: .62rem;
     color: var(--a37-var-color-red);
+    transition: .5s ease-in-out;;
 }
 
 .project-hl{
@@ -45,6 +46,12 @@
 .hide-bg{
     background-color: var(--a37-var-color-beige-0);
     transition: .5s ease-in-out;
+}
+
+.hide-bg-no {
+    font-size: 0.8125rem;
+    color: var(--a37-var-color-beige-300);
+    transition: .5s ease-in-out;;
 }
 
 
@@ -64,18 +71,7 @@
     display: flex;
     gap: 1rem;
     position: relative;
-    /* overflow-x: hidden; */
-    /* animation: moveLeft 5s linear infinite; */
 }
-
-/* @keyframes moveLeft {
-    from{
-        translate: 0px;
-    }
-    to{
-        translate: -100%;
-    }
-} */
 
 /* ! END CAROUSELS */
 

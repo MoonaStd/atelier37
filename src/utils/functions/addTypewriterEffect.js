@@ -4,9 +4,9 @@ export const addTypewriterEffect = () => {
 
   const pElements = document.querySelectorAll("p");
 
+
   pElements.forEach((parr) => {
-    // console.log(parr.innerText.length)
-    const timeToFinish = parr.innerText.length * 6
+  // scrollChecker(parr)
 
     parr.classList.add("hidden");
 
@@ -18,27 +18,27 @@ export const addTypewriterEffect = () => {
       if(window.innerWidth > 1200 && window.innerWidth<1215){
         location.reload(true)
         parr.classList.remove("typed")
-        scrollChecker(parr, timeToFinish)
+        scrollChecker(parr)
       } else if(window.innerWidth > 1000 && window.innerWidth<1015){
         location.reload(true)
         parr.classList.remove("typed")
-        scrollChecker(parr, timeToFinish)
+        scrollChecker(parr)
       } else if(window.innerWidth > 780 && window.innerWidth<795){
         location.reload(true)
         parr.classList.remove("typed")
-        scrollChecker(parr, timeToFinish)
+        scrollChecker(parr)
       } else if(window.innerWidth >600  && window.innerWidth<615){
         location.reload(true)
         parr.classList.remove("typed")
-        scrollChecker(parr, timeToFinish)
+        scrollChecker(parr)
       } else if(window.innerWidth >500  && window.innerWidth<515){
         location.reload(true)
         parr.classList.remove("typed")
-        scrollChecker(parr, timeToFinish)
+        scrollChecker(parr)
       } else if(window.innerWidth >400  && window.innerWidth<415){
         location.reload(true)
         parr.classList.remove("typed")
-        scrollChecker(parr, timeToFinish)
+        scrollChecker(parr)
       } 
     });
     window.addEventListener("scroll", () => {

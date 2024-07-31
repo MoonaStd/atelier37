@@ -12,6 +12,7 @@ printFooter()
 changeCursor()
 addTypewriterEffect()
 
+
 const carousels = document.querySelectorAll(".project-carousel")
 // const carousel = document.querySelector(".project-carousel")
 
