@@ -157,8 +157,23 @@ h2, h3, h4, h5, h6, p, button{
     flex-direction: column
 }
 
-.span_h3{
+
+
+.highlight-bg{
     background-color: var(--a37-var-color-green);
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.hide-bg{
+    background-color: var(--a37-var-color-beige-0);
+    transition: .5s ease-in-out;
+}
+
+.hide-bg-no {
+    font-size: 0.8125rem;
+    color: var(--a37-var-color-beige-300);
+    transition: .5s ease-in-out;;
 }
 
 /* End portfolio */
