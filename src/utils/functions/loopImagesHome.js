@@ -6,7 +6,7 @@ let i = 0
 
 export const printHomeImages = () =>  {
   divToPrint.innerHTML = `<img class="esaku-image-content" src="${images[i]}" alt="image">`
-  if(i<3){
+  if(i<images.length -1){
     setTimeout(() => {
       i++;    
       printHomeImages()
