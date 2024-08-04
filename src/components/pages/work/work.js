@@ -21,8 +21,13 @@ const carousels = document.querySelectorAll(".project-carousel")
 
 const interval = 30
 carousels.forEach((carousel)=>{
-  carousel.innerHTML += carousel.innerHTML
-     moveCarousel(carousel, interval)
+  if(window.screen.width > 1440){
+    carousel.innerHTML = carousel.innerHTML + carousel.innerHTML + carousel.innerHTML + carousel.innerHTML
+    moveCarousel(carousel, interval)
+  } else {
+    carousel.innerHTML += carousel.innerHTML
+    moveCarousel(carousel, interval)
+  }
 })
 
 

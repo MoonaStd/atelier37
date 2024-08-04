@@ -1,5 +1,4 @@
    export const moveCarousel = (carousel, duration) => {
-      const originalCarousel = getOriginalCarousel(carousel)
 
       carousel.style.transition = duration  + "s" +  " linear"
       
@@ -25,10 +24,6 @@
     export const handleCarouselHover = (carousel)=>{
       console.log("pausado")
       carousel.style.animationPlayState = "paused"
-    }
-
-    const getOriginalCarousel = (carousel)=> {
-      return carousel.innerHTML
     }
     
 
