@@ -217,15 +217,22 @@ h2, h3, h4, h5, h6, p, button{
 }
 
 .esaku-title {
-    position: relative;
-    top: 0.8rem;
-    font-weight: 400;
-    color: var(--a37-var-color-green);
-    text-align: center;
-    font-size: 40px;
-    /* letter-spacing: 90px; */
     width: 60%;
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -.7rem;
+}
+
+.esaku-title h4{
+    color: var(--green-D9EB0F, #D9EB0F);
+    font-family: "Space Mono";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 .esaku-image {
@@ -380,19 +387,7 @@ h2, h3, h4, h5, h6, p, button{
 
 
 
-
-
-
-
-
 /* Media Queries */
-    /* About */
- @media screen and (max-width: 780px) {
-    .esaku{
-        height: 25vh;
-     }
-}
-    /* End About */
 
     /* Services */
 @media screen and (max-width: 780px) {
@@ -420,7 +415,38 @@ h2, h3, h4, h5, h6, p, button{
     }
 }
 
-    /* End Services */
+@media screen and (max-width:1000px){
+        /* portfolio */
+        .portfolio{
+            flex-wrap: wrap;
+        }
+        .project_img{
+            width: 420px;
+        }
+}
+
+@media screen and (max-width:961px){
+    .project_img{
+        width: 360px;
+    }
+}
+
+@media  screen  and (max-width:835px){
+    .project_img, .port_project{
+        width: 100%;
+    }
+    .esaku{
+        height: 40vh;
+    }
+    .portfolio{
+        gap: 5rem;
+    }
+
+}
+
+
+
+    /*About  */
     @media screen and (max-width:780px){
         .about{
             flex-direction: column;

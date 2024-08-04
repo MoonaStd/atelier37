@@ -13,4 +13,4 @@ printFooter()
 
 changeCursor()
 
-addTypewriterEffect()
+// addTypewriterEffect()
