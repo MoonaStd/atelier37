@@ -21,6 +21,23 @@
     padding: 10rem 0 3rem 0;
 }
 
+/* CAROUSELS */
+
+.carousel-container {
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+
+.project-carousel{
+    display: flex;
+    gap: 1rem;
+    position: relative;
+}
+
+/*  END CAROUSELS */
+
 .project-hl{
     background-color: var(--a37-var-color-green);
 }
