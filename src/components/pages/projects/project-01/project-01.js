@@ -21,24 +21,26 @@ const carousels = document.querySelectorAll(".project-carousel")
 // const carousel = document.querySelector(".project-carousel")
 
 
-const interval = 30
+const interval = 120
 carousels.forEach((carousel)=>{
   if(window.screen.width > 1440){
-    carousel.innerHTML = carousel.innerHTML + carousel.innerHTML + carousel.innerHTML + carousel.innerHTML
+    carousel.innerHTML = carousel.innerHTML + carousel.innerHTML + carousel.innerHTML + carousel.innerHTML + carousel.innerHTML
     moveCarousel(carousel, interval)
   } else {
-    carousel.innerHTML += carousel.innerHTML
+    carousel.innerHTML += carousel.innerHTML + carousel.innerHTML
     moveCarousel(carousel, interval)
   }
 })
 
 
 carousels.forEach(item => {
-  const images = item.querySelectorAll ("img")
+  // const images = item.querySelectorAll ("img")
+  const images = item.querySelectorAll (".carousel-img")
   images.forEach(image => {
-    // image.style.zIndex = 99
+      // image.style.width = "480px"
+      image.style.height = "30rem"
       image.addEventListener("mouseover", (e)=>{handleMouseoverProjectsImages(e)})
-      image.addEventListener("mouseleave", (e)=>{handleMouseleaveProjectsImages(e)})
+      image.addEventListener("mouseleave", (e)=>{handleMouseleavePrjectsImages(e)})
       
   });
 });

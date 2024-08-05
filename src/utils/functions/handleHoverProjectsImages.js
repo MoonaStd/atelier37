@@ -1,6 +1,10 @@
 export const handleMouseoverProjectsImages = (e) => {
-  e.target.width = "300px"
+  // console.log(e.target)
+  // console.log(e.target.clientWidth)
+  // e.target.style.width = e.target.clientWidth + "px"
+  e.target.style.height = 30 + 10 + "rem"
+
 }
 export const handleMouseleavePrjectsImages = (e) => {
-  e.target.width = "100px"
+  e.target.style.height = 30 +  "rem"
 }
