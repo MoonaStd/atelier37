@@ -15,6 +15,8 @@ h1{
   justify-content: center;
   height: 100svh;
   background-image: url("/src/assets/plano.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
   z-index: 999;
   top: 0;
@@ -33,19 +35,24 @@ h1{
   display: flex;
   align-items: center;
   gap: 2rem;
-  /* justify-content: space-evenly; */
-  width: 25svw;
+  justify-content: space-between;
+  width: 17svw;
 }
 
 .progress-bar {
+  width: 200px;
+  /* overflow: hidden; */
+}
+
+.inner-bar {
   background-color: var(--a37-var-color-red);
-  max-width: 400px;
+  /* max-width: 17svw; */
   height: 5px;
   justify-self: flex-start;
   /* transition: 1s ease-in-out; */
 }
 
 .hundred {
-  position: absolute;
-  right: 0;
+  /* position: absolute; */
+  /* right: 0; */
 }

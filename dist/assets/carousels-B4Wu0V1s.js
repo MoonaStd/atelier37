@@ -1,0 +1,1 @@
+const s=(t,e)=>{t.style.transition=e+"s linear",t.style.left="0px",t.style.left=`-${t.scrollWidth/2+8}px`,setTimeout(()=>{i(t,e)},e*1e3+5)},i=(t,e)=>{t.style.transition="0s linear",t.style.left="0px",setTimeout(()=>{s(t,e)},10)};export{s as m};

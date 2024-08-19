@@ -29,10 +29,12 @@ export const printLoader = () => {
   const progressBar = document.createElement("div")
   progressBar.classList.add("progress-bar")
   progressBarDiv.append(progressBar)
-  progressBar.style.width = "0px"
-  
-  setTimeout(() => {
-  }, 200);
+  const innerBar = document.createElement("div")
+  innerBar.classList.add("inner-bar")
+  progressBar.append(innerBar)
+  innerBar.style.width = "0px"
+  const progressBarRect = progressBar.getBoundingClientRect().width
+  console.log(progressBarRect)
   
   
   const hundred = document.createElement("p")
@@ -46,9 +48,9 @@ export const printLoader = () => {
     if(i<100){
       i++
       hundred.innerText = i + "%"
-      progressBar.style.width = i*2.5 + "px"
+      innerBar.style.width = 2*i + "px"
     }
-  }, 10);
+  }, 4);
 
   
 
@@ -56,7 +58,7 @@ export const printLoader = () => {
     loaderContainer.style.top = "-100%"
     setTimeout(() => {
       loaderContainer.remove()
-    }, 1000);
-  }, 1500);
+    }, 1500);
+  }, 2000);
 }
 
