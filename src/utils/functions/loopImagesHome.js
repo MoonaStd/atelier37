@@ -1,4 +1,4 @@
-const images = [ "src/assets/Esaku/pexels-bruna-crossi-862333624-19934344.jpg", "src/assets/Esaku/pexels-dung-ph-m-694024428-22806874.jpg", "src/assets/Esaku/pexels-hellojoshwithers-17697814.jpg", "src/assets/Esaku/pexels-matreding-18111223.png" ]
+const images = [ "https://res.cloudinary.com/dgrhbsilh/image/upload/v1724066848/A37/bdyftb1fapz0abfsnxnt.png", "https://res.cloudinary.com/dgrhbsilh/image/upload/v1724066848/A37/tobi07pw3qt99qzzbpdd.jpg", "https://res.cloudinary.com/dgrhbsilh/image/upload/v1724066848/A37/onjnaqccniwb5fkwfany.jpg", "https://res.cloudinary.com/dgrhbsilh/image/upload/v1724066848/A37/iw5vuvy16xjwsrptanun.jpg" ]
 const divToPrint = document.querySelector(".esaku-image")
 
 
