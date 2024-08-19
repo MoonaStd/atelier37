@@ -7,6 +7,7 @@ import { changeCursor} from "../../../../utils/changeCursor"
 import { addTypewriterEffect } from "../../../../utils/functions/addTypewriterEffect"
 import { handleCarouselHover, moveCarousel } from "../../../../utils/functions/carousels"
 import { handleMouseleavePrjectsImages, handleMouseoverProjectsImages } from "../../../../utils/functions/handleHoverProjectsImages"
+import { smoothScroll } from "../../../../utils/functions/smoothScroll"
 
 
 
@@ -15,6 +16,8 @@ printFooter()
 
 changeCursor()
 addTypewriterEffect()
+
+smoothScroll()
 
 const carousels = document.querySelectorAll(".project-carousel")
 // const carousel = document.querySelector(".project-carousel")

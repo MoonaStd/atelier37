@@ -7,12 +7,15 @@ import { addTypewriterEffect } from "../../../utils/functions/addTypewriterEffec
 import { handleCarouselHover, moveCarousel } from "../../../utils/functions/carousels"
 import { getMousePosition } from "../../../utils/functions/getMousePosition"
 import { handleHoverImages } from "../../../utils/functions/handleHoverImages"
+import { smoothScroll } from "../../../utils/functions/smoothScroll"
 
 
 printNavBar()
 printFooter()
 changeCursor()
 addTypewriterEffect()
+
+smoothScroll()
 
 
 const carousels = document.querySelectorAll(".project-carousel")
