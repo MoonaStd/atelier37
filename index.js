@@ -12,7 +12,7 @@ printNavBar()
 printFooter()
 changeCursor()
 addTypewriterEffect()
-printLoader()
+// printLoader()
 printHomeImages()
 
 

@@ -34,14 +34,15 @@ export const printLoader = () => {
   setTimeout(() => {
   }, 200);
   
-  
   const hundred = document.createElement("p")
   hundred.classList.add("hundred")
   hundred.innerText = "100%"
   progressBarDiv.append(hundred)
   
-  let i = 0
+  body.style.overflow = "hidden"
+
   
+  let i = 0
   setInterval(() => {
     if(i<100){
       i++
@@ -50,12 +51,11 @@ export const printLoader = () => {
     }
   }, 10);
 
-  
-
   setTimeout(() => {
     loaderContainer.style.top = "-100%"
     setTimeout(() => {
       loaderContainer.remove()
+      // body.style.overflow = "scroll"
     }, 1000);
   }, 1500);
 }
