@@ -189,14 +189,18 @@ h2, h3, h4, h5, h6, p, button{
 }
 
 .about{
+
+    width: 96%;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 
     border-top: 2px solid var(--a37-var-color-red);
     border-bottom: 2px solid var(--a37-var-color-red);
-    padding: 2rem;
     gap: 2rem;
+
+    padding: 2rem 0;
 }
 
 .about_title{
@@ -218,7 +222,7 @@ h2, h3, h4, h5, h6, p, button{
 
 .esaku{
     width: 65%;
-    height: 85vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
