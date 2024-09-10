@@ -33,12 +33,12 @@ const footer = `
                 </ul>
 
                 <ul class="nav_ul">
-                    <li>INDEX</li>
-                    <li>OUR WORK</li>
-                    <li><a href="/about.html">ABOUT US</li]></a>
+                    <li><a href="/index.html">INDEX</a></li>
+                    <li><a href="/src/components/pages/work/work.html">OUR WORK</a></li>
+                    <li><a href="/src/components/pages/about/about.html">ABOUT US</a></li>
                     <li class="nav_li_cta"><svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 4.66602H16M16 4.66602L11.6364 0.666016M16 4.66602L11.6364 8.66602" stroke="#FCFBF9" stroke-width="1.06667"/>
-                    </svg><a href="/contact.html"> GET IN TOUCH</li></a>
+                    </svg><a href="/src/components/pages/contact/contact.html">GET IN TOUCH</a></li>
                 </ul>
             </div>
         </nav>

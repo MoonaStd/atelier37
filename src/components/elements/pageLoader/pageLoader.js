@@ -57,13 +57,7 @@ export const printLoader = () => {
     loaderContainer.style.top = "-100%"
     setTimeout(() => {
       loaderContainer.remove()
-<<<<<<< HEAD
-      // body.style.overflow = "scroll"
-    }, 1000);
-  }, 1500);
-=======
     }, 1500);
   }, 2000);
->>>>>>> 21aa8d7dae4a24287679693c05c367adfc3290f9
 }
 

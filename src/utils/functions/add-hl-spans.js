@@ -1,4 +1,4 @@
-const stringsToFind = ["rustic charm with ocean views", "tranquility amidst nature's beauty", "minimalist elegance", "clean lines and contemporary design,", "mid-century art", "serenity and elegance", "the integration of natural light", "exceptional architectural projects", "we combine our expertise", "wabi-sabi principles"]
+const stringsToFind = ["rustic charm with ocean views", "tranquility amidst nature's beauty", "minimalist elegance", "clean lines and contemporary design,", "mid-century art", "serenity and elegance", "the integration of natural light", "exceptional architectural projects", "we combine our expertise", "wabi-sabi principles", "corporate", "workspace", "beauty of imperfection and simplicity", "mid-century", "classic", "elegance", "minimalist", "interior", "clean lines", "neutral"]
 
 export const addHlSpans = (p)=> {
   const innerText = p.innerHTML
