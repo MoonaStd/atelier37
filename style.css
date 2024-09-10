@@ -60,6 +60,12 @@ h2, h3, h4, h5, h6, p, button{
     --a37-var-color-green: #D9EB0F;
 }
 
+p span{
+    transition: .5s ease-in-out;
+    background-color: rgba(255, 255, 255, 0);
+    /* background-color: rgba(240, 2, 2, 0.568); */
+}
+
 
 
 /* hero */

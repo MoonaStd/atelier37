@@ -6,9 +6,6 @@ import { changeCursor } from "../../../utils/changeCursor"
 import { addTypewriterEffect } from "../../../utils/functions/addTypewriterEffect"
 import { smoothScroll } from "../../../utils/functions/smoothScroll"
 
-
-console.log("choripanes")
-
 printNavBar()
 printFooter()
 

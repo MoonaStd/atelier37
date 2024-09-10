@@ -24,7 +24,7 @@ if(!(element.classList.contains("typed"))){
 
     setTimeout(() => {
       addNumberSpans(element)
-      addHlSpans(element)
+      // addHlSpans(element)
       setTimeout(() => {
         const hideBgEl = document.querySelectorAll(".hide-bg")
         hideBgEl.forEach((item)=> {

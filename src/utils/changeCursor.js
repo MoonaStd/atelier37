@@ -11,10 +11,18 @@ body.append(cursor)
 
 if(window.innerWidth <=500){
   cursor.style.display = "none"
+  } else {
+    cursor.style.display = "inline"
   }
 
 
 const moveCursor = (e)=> {
+
+  if(window.innerWidth <=500){
+    cursor.style.display = "none"
+    } else {
+      cursor.style.display = "inline"
+    }
 
     const mouseY = e.clientY;
     const mouseX = e.clientX;

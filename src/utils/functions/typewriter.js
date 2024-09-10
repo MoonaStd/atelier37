@@ -1,4 +1,6 @@
-export const speed = 10
+import { addHlSpans } from "./add-hl-spans"
+
+export const speed = 2
 export const typewriter = (p) => {
   let pArr = p.innerText.split("")
   p.innerHTML = ""
@@ -12,6 +14,16 @@ export const typewriter = (p) => {
           i++
           setTimeout(typewriterIn, speed)
         }, speed);
+      } else {
+          addHlSpans(p)
+          setTimeout(() => {
+            const spans= p.querySelectorAll("span")
+            spans.forEach((span)=>{
+              if(!(span.classList.toString().includes("project-no"))){
+                span.style.backgroundColor="#D9EB0F"
+              }
+            })
+          }, 0);
       }
     }
     typewriterIn()  
