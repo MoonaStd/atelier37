@@ -9,6 +9,10 @@ const body = document.querySelector("body")
 body.append(cursor)
 body.append(cursor)
 
+if(window.innerWidth <=500){
+  cursor.style.display = "none"
+  }
+
 
 const moveCursor = (e)=> {
 
